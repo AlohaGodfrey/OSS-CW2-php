@@ -19,17 +19,7 @@
      }
 
      $result = mysqli_query($conn,$sql);
-
-    // for ($x = 0; $x <= 5; $x++){
-    //     $sql = "INSERT INTO 'student' (studentid, password, dob, firstname, lastname, house, town, county, country, postcode) 
-    //     VALUES ('{$faker->randomNumber($nbDigits = NULL, $strict = false)}','{$faker->password}','{$faker->date($format = 'Y-m-d', $max = 'now')}',
-    //     '{$faker->firstName($gender = 'NULL'|'male'|'female')}','{$faker->lastName}','{$faker->streetAddress}',
-    //     '{$faker->city}',
-    //     '{$faker->citySuffix}',
-    //     '{$faker->country}','{$faker->postcode}')";
-      
-    //   }
-
+     
       //mysqli_query($conn,$sql)
 
      // $sql = "insert into student (studentid,password,dob,";

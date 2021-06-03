@@ -5,9 +5,7 @@ include("_includes/dbconnect.inc");
 include("_includes/functions.inc");
 
 //studentid, password, dob, firstname, lastname, house, town, county, country, postcode
-
 ?>
-
 <html>
 <head>
     <h2> Enter New Details </h2>

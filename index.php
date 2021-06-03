@@ -1,10 +1,6 @@
 <?php
-
-  
    
    include("add_accounts.php");
-   
-
    echo template("templates/partials/header.php");
 
    if (isset($_GET['return'])) {
